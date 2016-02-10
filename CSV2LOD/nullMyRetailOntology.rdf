@@ -1,0 +1,138 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:MyRetail="http://test.csv2lod.com/ontologies/MyRetail#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#SupplierID">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#Supplier"/>
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#Product"/>
+    <rdfs:comment xml:lang="en">Comment for SupplierID</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#InventoryOnHold">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#Product"/>
+    <rdfs:comment xml:lang="en">Comment for InventoryOnHold</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#Price">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#ProductGroup"/>
+    <rdfs:comment xml:lang="en">Comment for Price</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#Price-Level1">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#Product"/>
+    <rdfs:comment xml:lang="en">Comment for Price-Level1</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#ProductGroup">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#Product">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#Supplier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#ProductGroupCode">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#ProductGroup"/>
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#Product"/>
+    <rdfs:comment xml:lang="en">Comment for ProductGroupCode</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#ProductType">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#ProductGroup"/>
+    <rdfs:comment xml:lang="en">Comment for ProductType</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#ItemGroupRealz">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#Product"/>
+    <rdfs:comment xml:lang="en">Comment for ItemGroupRealz</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#Description">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#Product"/>
+    <rdfs:comment xml:lang="en">Comment for Description</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#ItemType">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#Product"/>
+    <rdfs:comment xml:lang="en">Comment for ItemType</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#ItemGroupReal">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#Product"/>
+    <rdfs:comment xml:lang="en">Comment for ItemGroupReal</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#Address">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#Supplier"/>
+    <rdfs:comment xml:lang="en">Comment for Address</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#ItemGroupCode">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#Product"/>
+    <rdfs:comment xml:lang="en">Comment for ItemGroupCode</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#ItemID">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#ProductGroup"/>
+    <rdfs:comment xml:lang="en">Comment for ItemID</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#CreatedAt">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#ProductGroup"/>
+    <rdfs:comment xml:lang="en">Comment for CreatedAt</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#QuantityInStock">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#Product"/>
+    <rdfs:comment xml:lang="en">Comment for QuantityInStock</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#Name">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#Supplier"/>
+    <rdfs:comment xml:lang="en">Comment for Name</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#InventoryOnOrder">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#Product"/>
+    <rdfs:comment xml:lang="en">Comment for InventoryOnOrder</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#ProductCode">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#Product"/>
+    <rdfs:comment xml:lang="en">Comment for ProductCode</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#UnitOfMeasure">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#Product"/>
+    <rdfs:comment xml:lang="en">Comment for UnitOfMeasure</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ontologies/MyRetail#ProductGroupName">
+    <rdfs:domain rdf:resource="http://test.csv2lod.com/ontologies/MyRetail#ProductGroup"/>
+    <rdfs:comment xml:lang="en">Comment for ProductGroupName</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+</rdf:RDF>

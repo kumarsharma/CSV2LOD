@@ -1,0 +1,27 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:MyRetail="http://test.csv2lod.com/ontologies/MyRetail#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="http://test.csv2lod.com/Supplier_0">
+    <MyRetail:Address>New Delhi</MyRetail:Address>
+    <MyRetail:Name>ABC Info</MyRetail:Name>
+    <MyRetail:SupplierID>S1</MyRetail:SupplierID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/Supplier_1">
+    <MyRetail:Address>NEW DELHI</MyRetail:Address>
+    <MyRetail:Name>Retail Supplier</MyRetail:Name>
+    <MyRetail:SupplierID>S2</MyRetail:SupplierID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/Supplier_2">
+    <MyRetail:Address>NEW MARKET</MyRetail:Address>
+    <MyRetail:Name>Accessories Supplier</MyRetail:Name>
+    <MyRetail:SupplierID>S3</MyRetail:SupplierID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/Supplier_3">
+    <MyRetail:Address>NEW MART</MyRetail:Address>
+    <MyRetail:Name>Economy</MyRetail:Name>
+    <MyRetail:SupplierID>S4</MyRetail:SupplierID>
+  </rdf:Description>
+</rdf:RDF>

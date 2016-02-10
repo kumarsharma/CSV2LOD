@@ -1,0 +1,39 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:MyRetail="http://test.csv2lod.com/ontologies/MyRetail#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="http://test.csv2lod.com/ProductGroup_1">
+    <MyRetail:CreatedAt>02/06/1995</MyRetail:CreatedAt>
+    <MyRetail:ItemID>2</MyRetail:ItemID>
+    <MyRetail:Price>12.50</MyRetail:Price>
+    <MyRetail:ProductType>BAK</MyRetail:ProductType>
+    <MyRetail:ProductGroupName>Retail</MyRetail:ProductGroupName>
+    <MyRetail:ProductGroupCode>BAKRET</MyRetail:ProductGroupCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ProductGroup_2">
+    <MyRetail:CreatedAt>09/03/2000</MyRetail:CreatedAt>
+    <MyRetail:ItemID>3</MyRetail:ItemID>
+    <MyRetail:Price>15.50</MyRetail:Price>
+    <MyRetail:ProductType>BAL</MyRetail:ProductType>
+    <MyRetail:ProductGroupName>Accessories</MyRetail:ProductGroupName>
+    <MyRetail:ProductGroupCode>BALACC</MyRetail:ProductGroupCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ProductGroup_0">
+    <MyRetail:CreatedAt>30/10/1984</MyRetail:CreatedAt>
+    <MyRetail:ItemID>1</MyRetail:ItemID>
+    <MyRetail:Price>10.00</MyRetail:Price>
+    <MyRetail:ProductType>BAK</MyRetail:ProductType>
+    <MyRetail:ProductGroupName>Bulk</MyRetail:ProductGroupName>
+    <MyRetail:ProductGroupCode>BAKBLK</MyRetail:ProductGroupCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/ProductGroup_3">
+    <MyRetail:CreatedAt>10/10/2005</MyRetail:CreatedAt>
+    <MyRetail:ItemID>4</MyRetail:ItemID>
+    <MyRetail:Price>14.00</MyRetail:Price>
+    <MyRetail:ProductType>BAL</MyRetail:ProductType>
+    <MyRetail:ProductGroupName>Economy Latex Bulsk</MyRetail:ProductGroupName>
+    <MyRetail:ProductGroupCode>BALBLK</MyRetail:ProductGroupCode>
+  </rdf:Description>
+</rdf:RDF>

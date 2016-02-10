@@ -1,0 +1,127 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:MyRetail="http://test.csv2lod.com/ontologies/MyRetail#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="http://test.csv2lod.com/Product_4">
+    <MyRetail:InventoryOnHold>19</MyRetail:InventoryOnHold>
+    <MyRetail:ItemGroupRealz>MUFFIN</MyRetail:ItemGroupRealz>
+    <MyRetail:ProductCode>104610GBC</MyRetail:ProductCode>
+    <MyRetail:InventoryOnOrder>44</MyRetail:InventoryOnOrder>
+    <MyRetail:Price-Level1>7.6</MyRetail:Price-Level1>
+    <MyRetail:ItemGroupCode>BAK</MyRetail:ItemGroupCode>
+    <MyRetail:ItemType>2</MyRetail:ItemType>
+    <MyRetail:QuantityInStock>2</MyRetail:QuantityInStock>
+    <MyRetail:UnitOfMeasure>ctn</MyRetail:UnitOfMeasure>
+    <MyRetail:SupplierID>S4</MyRetail:SupplierID>
+    <MyRetail:ProductGroupCode>BAKBLK</MyRetail:ProductGroupCode>
+    <MyRetail:Description>Greens 610 Bagged Choc 12240</MyRetail:Description>
+    <MyRetail:ItemGroupReal></MyRetail:ItemGroupReal>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/Product_5">
+    <MyRetail:InventoryOnHold>20</MyRetail:InventoryOnHold>
+    <MyRetail:Price-Level1>7.6</MyRetail:Price-Level1>
+    <MyRetail:ItemGroupCode>BAK</MyRetail:ItemGroupCode>
+    <MyRetail:ProductGroupCode>BAKBLK</MyRetail:ProductGroupCode>
+    <MyRetail:ItemGroupReal></MyRetail:ItemGroupReal>
+    <MyRetail:Description>Greens 610 Bagged Pink   12240</MyRetail:Description>
+    <MyRetail:ItemType>2</MyRetail:ItemType>
+    <MyRetail:UnitOfMeasure>ctn</MyRetail:UnitOfMeasure>
+    <MyRetail:SupplierID>S4</MyRetail:SupplierID>
+    <MyRetail:InventoryOnOrder>0</MyRetail:InventoryOnOrder>
+    <MyRetail:ItemGroupRealz>MUFFIN</MyRetail:ItemGroupRealz>
+    <MyRetail:ProductCode>104610GBP</MyRetail:ProductCode>
+    <MyRetail:QuantityInStock>37</MyRetail:QuantityInStock>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/Product_2">
+    <MyRetail:ProductGroupCode>BAKBLK</MyRetail:ProductGroupCode>
+    <MyRetail:UnitOfMeasure>pk</MyRetail:UnitOfMeasure>
+    <MyRetail:ItemGroupRealz>PANLNR</MyRetail:ItemGroupRealz>
+    <MyRetail:ItemGroupCode>BAK</MyRetail:ItemGroupCode>
+    <MyRetail:SupplierID>S3</MyRetail:SupplierID>
+    <MyRetail:InventoryOnHold>0</MyRetail:InventoryOnHold>
+    <MyRetail:ProductCode>104013</MyRetail:ProductCode>
+    <MyRetail:ItemType>2</MyRetail:ItemType>
+    <MyRetail:ItemGroupReal></MyRetail:ItemGroupReal>
+    <MyRetail:InventoryOnOrder>0</MyRetail:InventoryOnOrder>
+    <MyRetail:QuantityInStock>55</MyRetail:QuantityInStock>
+    <MyRetail:Price-Level1>23.3</MyRetail:Price-Level1>
+    <MyRetail:Description>PANLINER WHITE #R13 160x55 200</MyRetail:Description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/Product_3">
+    <MyRetail:ItemGroupReal></MyRetail:ItemGroupReal>
+    <MyRetail:Description>PANLINER WHITE #R14 160x65 200</MyRetail:Description>
+    <MyRetail:ItemGroupCode>BAK</MyRetail:ItemGroupCode>
+    <MyRetail:Price-Level1>23.3</MyRetail:Price-Level1>
+    <MyRetail:InventoryOnHold>0</MyRetail:InventoryOnHold>
+    <MyRetail:ItemType>2</MyRetail:ItemType>
+    <MyRetail:ProductGroupCode>BAKBLK</MyRetail:ProductGroupCode>
+    <MyRetail:InventoryOnOrder>30</MyRetail:InventoryOnOrder>
+    <MyRetail:QuantityInStock>0</MyRetail:QuantityInStock>
+    <MyRetail:ItemGroupRealz>PANLNR</MyRetail:ItemGroupRealz>
+    <MyRetail:ProductCode>104014</MyRetail:ProductCode>
+    <MyRetail:SupplierID>S3</MyRetail:SupplierID>
+    <MyRetail:UnitOfMeasure>pk</MyRetail:UnitOfMeasure>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/Product_6">
+    <MyRetail:ItemType>2</MyRetail:ItemType>
+    <MyRetail:ItemGroupRealz>MUFFIN</MyRetail:ItemGroupRealz>
+    <MyRetail:ProductGroupCode>BAKBLK</MyRetail:ProductGroupCode>
+    <MyRetail:InventoryOnOrder>0</MyRetail:InventoryOnOrder>
+    <MyRetail:ItemGroupCode>BAK</MyRetail:ItemGroupCode>
+    <MyRetail:Price-Level1>7.6</MyRetail:Price-Level1>
+    <MyRetail:UnitOfMeasure>ctn</MyRetail:UnitOfMeasure>
+    <MyRetail:QuantityInStock>44</MyRetail:QuantityInStock>
+    <MyRetail:InventoryOnHold>37</MyRetail:InventoryOnHold>
+    <MyRetail:Description>Bagged #610 Red ctn/12240</MyRetail:Description>
+    <MyRetail:SupplierID>S4</MyRetail:SupplierID>
+    <MyRetail:ItemGroupReal></MyRetail:ItemGroupReal>
+    <MyRetail:ProductCode>104610GBR</MyRetail:ProductCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/Product_7">
+    <MyRetail:ItemGroupCode>BAK</MyRetail:ItemGroupCode>
+    <MyRetail:Price-Level1>7.6</MyRetail:Price-Level1>
+    <MyRetail:ItemGroupReal></MyRetail:ItemGroupReal>
+    <MyRetail:UnitOfMeasure>ctn</MyRetail:UnitOfMeasure>
+    <MyRetail:QuantityInStock>0</MyRetail:QuantityInStock>
+    <MyRetail:ProductCode>104610GBW</MyRetail:ProductCode>
+    <MyRetail:InventoryOnHold>0</MyRetail:InventoryOnHold>
+    <MyRetail:SupplierID>S4</MyRetail:SupplierID>
+    <MyRetail:ProductGroupCode>BAKBLK</MyRetail:ProductGroupCode>
+    <MyRetail:Description>Greens 610 Bagged White 12240</MyRetail:Description>
+    <MyRetail:ItemType>2</MyRetail:ItemType>
+    <MyRetail:ItemGroupRealz>MUFFIN</MyRetail:ItemGroupRealz>
+    <MyRetail:InventoryOnOrder>222</MyRetail:InventoryOnOrder>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/Product_0">
+    <MyRetail:UnitOfMeasure>pk</MyRetail:UnitOfMeasure>
+    <MyRetail:InventoryOnHold>0</MyRetail:InventoryOnHold>
+    <MyRetail:ItemType>1</MyRetail:ItemType>
+    <MyRetail:ProductGroupCode>BAKBLK</MyRetail:ProductGroupCode>
+    <MyRetail:InventoryOnOrder>0</MyRetail:InventoryOnOrder>
+    <MyRetail:ItemGroupReal></MyRetail:ItemGroupReal>
+    <MyRetail:Description>BAK.PAPER SILICON 405x710 R500</MyRetail:Description>
+    <MyRetail:SupplierID>S1</MyRetail:SupplierID>
+    <MyRetail:ProductCode>103211</MyRetail:ProductCode>
+    <MyRetail:Price-Level1>76</MyRetail:Price-Level1>
+    <MyRetail:QuantityInStock>4</MyRetail:QuantityInStock>
+    <MyRetail:ItemGroupRealz>BAKPAP</MyRetail:ItemGroupRealz>
+    <MyRetail:ItemGroupCode>BAK</MyRetail:ItemGroupCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.csv2lod.com/Product_1">
+    <MyRetail:ItemType>1</MyRetail:ItemType>
+    <MyRetail:ItemGroupRealz>BAKPAP</MyRetail:ItemGroupRealz>
+    <MyRetail:InventoryOnOrder>0</MyRetail:InventoryOnOrder>
+    <MyRetail:QuantityInStock>2</MyRetail:QuantityInStock>
+    <MyRetail:ProductCode>103213</MyRetail:ProductCode>
+    <MyRetail:ItemGroupCode>BAK</MyRetail:ItemGroupCode>
+    <MyRetail:Price-Level1>80</MyRetail:Price-Level1>
+    <MyRetail:UnitOfMeasure>pk</MyRetail:UnitOfMeasure>
+    <MyRetail:ProductGroupCode>BAKBLK</MyRetail:ProductGroupCode>
+    <MyRetail:ItemGroupReal></MyRetail:ItemGroupReal>
+    <MyRetail:Description>BAK.PAPER SILICON 460x760 R500</MyRetail:Description>
+    <MyRetail:SupplierID>S1</MyRetail:SupplierID>
+    <MyRetail:InventoryOnHold>0</MyRetail:InventoryOnHold>
+  </rdf:Description>
+</rdf:RDF>
